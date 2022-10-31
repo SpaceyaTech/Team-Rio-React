@@ -28,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src/**/*.ts src/**/*.tsx",
+    "format": "prettier --write --ignore-path .gitignore .",
     "prettier": "prettier --check --ignore-path .gitignore .",
     "typecheck": "tsc --build",
     "validate": "concurrently --kill-others-on-fail -g -p \"[{name}]\" -n \"prettier,lint,typecheck,build\" \"npm:prettier -s\" \"npm:lint -s\" \"npm:typecheck -s\" \"npm:build -s\""
