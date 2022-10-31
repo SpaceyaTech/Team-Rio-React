@@ -1,3 +1,5 @@
+_The web app is automatically deployed via github action to Netlify_ [Visit it here](https://rio-react.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
