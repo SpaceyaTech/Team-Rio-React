@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// desktop
+@mixin desktop-title {
+  size: xxxx-large;
+  font-size: 3.815 rem;
+  font-weight: bold;
+  line-height: 5.719 rem;
+}
+@mixin desktop-h1 {
+  size: xxx-large;
+  font-size: 3.052 rem;
+  font-weight: semi-bold;
+  line-height: 4.594 rem;
+}
+@mixin desktop-h2 {
+  size: xx-large;
+  font-size: 2.441 rem;
+  font-weight: medium;
+  line-height: 3.656 rem;
+}
+@mixin desktop-h3 {
+  size: x-large;
+  font-size: 1.953 rem;
+  font-weight: medium;
+  line-height: 2.906 rem;
+}
+@mixin desktop-h4 {
+  size: large;
+  font-size: 1.562 rem;
+  font-weight: regular;
+  line-height: 2.344 rem;
+}
+@mixin desktop-h4-bold {
+  size: large;
+  font-size: 1.562 rem;
+  font-weight: bold;
+  line-height: 2.344 rem;
+}
+@mixin desktop-paragraph-big {
+  size: medium;
+  font-size: 1.25 rem;
+  font-weight: regular;
+  line-height: 1.875 rem;
+}
+@mixin desktop-paragraph-big-bold {
+  size: medium;
+  font-size: 1.25 rem;
+  font-weight: bold;
+  line-height: 1.875 rem;
+}
+@mixin desktop-paragraph-standard {
+  size: base;
+  font-size: 1 rem;
+  font-weight: regular;
+  line-height: 1.5 rem;
+}
+@mixin desktop-paragraph-standard-bold {
+  size: base;
+  font-size: 1 rem;
+  font-weight: bold;
+  line-height: 1.5 rem;
+}
+@mixin desktop-captions {
+  size: caption;
+  font-size: 0.8 rem;
+  font-weight: bold;
+  line-height: 1.219 rem;
+}
+// mobile
+@mixin mobile-title {
+  size: xxx-large;
+  font-size: 3.052 rem;
+  font-weight: semi-bold;
+  line-height: 4.594 rem;
+}
+@mixin mobile-h1 {
+  size: xx-large;
+  font-size: 2.441 rem;
+  font-weight: medium;
+  line-height: 3.656 rem;
+}
+@mixin mobile-h2 {
+  size: x-large;
+  font-size: 1.953 rem;
+  font-weight: medium;
+  line-height: 2.906 rem;
+}
+@mixin mobile-h3-bold {
+  size: x-large;
+  font-size: 1.562 rem;
+  font-weight: regular;
+  line-height: 2.344 rem;
+}
+@mixin mobile-paragraph-big {
+  size: medium;
+  font-size: 1.25 rem;
+  font-weight: regular;
+  line-height: 1.875 rem;
+}
+@mixin mobile-paragraph-big-bold {
+  size: medium;
+  font-size: 1.25 rem;
+  font-weight: bold;
+  line-height: 1.875 rem;
+}
+@mixin mobile-paragraph-standard {
+  size: base;
+  font-size: 1 rem;
+  font-weight: regular;
+  line-height: 1.5 rem;
+}
+@mixin mobile-paragraph-standard-bold {
+  size: base;
+  font-size: 1 rem;
+  font-weight: bold;
+  line-height: 1.5 rem;
+}
+@mixin mobile-captions {
+  size: caption;
+  font-size: 0.8 rem;
+  font-weight: bold;
+  line-height: 1.219 rem;
+}
