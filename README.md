@@ -1,3 +1,6 @@
+![React Build](https://github.com/spaceyatech/team-rio-react/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/SpaceyaTech/Team-Rio-React/branch/main/graph/badge.svg?token=FN1E83LI9Z)](https://codecov.io/gh/SpaceyaTech/Team-Rio-React)
+
 _The web app is automatically deployed via github action to Netlify_ [Visit it here](https://rio-react.netlify.app/)
 
 # Getting Started with Create React App
