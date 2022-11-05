@@ -122,3 +122,15 @@
   font-weight: bold;
   line-height: 1.219 rem;
 }
+
+// usage example
+// use refrence to design spec
+/*
+.section-className{
+  // your paragraph element
+  .paragraph-className{
+    //call mixin style you want to apply
+    @include desktop-paragraph-standard //applies styles defined in the mixin
+  }
+}
+*/

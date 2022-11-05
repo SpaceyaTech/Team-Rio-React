@@ -13,3 +13,14 @@ $spacing-11: 4rem;
 $spacing-12: 5rem;
 $spacing-13: 6rem;
 $spacing-14: 8rem;
+
+// usage example
+// use to space any element or apply marging and spacing in refrence to design spec
+/*
+button{
+    padding: $spacing-01 $spacing-02;
+}
+div{
+    margin-top: $spacing-04;
+}
+*/
