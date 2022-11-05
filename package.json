@@ -35,6 +35,7 @@
     "format": "prettier --write --ignore-path .gitignore .",
     "prettier": "prettier --check --ignore-path .gitignore .",
     "typecheck": "tsc --build",
+    "coverage": "npm run test -- --coverage --watchAll=false",
     "validate": "concurrently --kill-others-on-fail -g -p \"[{name}]\" -n \"prettier,lint,typecheck,build\" \"npm:prettier -s\" \"npm:lint -s\" \"npm:typecheck -s\" \"npm:build -s\""
   },
   "eslintConfig": {
@@ -54,5 +55,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts",
+      "!src/index.tsx",
+      "!src/reportWebVitals.ts"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    }
   }
 }
