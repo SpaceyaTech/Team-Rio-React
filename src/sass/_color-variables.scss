@@ -1,0 +1,80 @@
+//colors variables
+// true white
+$color-true-white: #f5fffd;
+//primary green
+$color-primary-green-100: #f5fffd;
+$color-primary-green-200: #ccfff3;
+$color-primary-green-300: #99ffe7;
+$color-primary-green-400: #66ffdb;
+$color-primary-green-500: #33ffcf;
+$color-primary-green-600: #00ffc3;
+$color-primary-green-700: #00cc9c;
+$color-primary-green-800: #009975;
+$color-primary-green-900: #00664e;
+$color-primary-green-1000: #003327;
+$color-primary-green-1100: #000f0c;
+
+//neutral
+$color-neutral-100: #f7f7f7;
+$color-neutral-200: #e5e6e6;
+$color-neutral-300: #cbcdcc;
+$color-neutral-400: #b2b3b3;
+$color-neutral-500: #009975;
+$color-neutral-600: #7e8180;
+$color-neutral-700: #656767;
+$color-neutral-800: #4c4d4d;
+$color-neutral-900: #00664e;
+$color-neutral-1000: #003327;
+$color-neutral-1100: #080808;
+
+// red
+$color-red-100: #fff0f0;
+$color-red-200: #ffcccc;
+$color-red-300: #ff9999;
+$color-red-400: #fe6767;
+$color-red-500: #fe3434;
+$color-red-600: #fe0101;
+$color-red-700: #cb0101;
+$color-red-800: #980101;
+$color-red-900: #660000;
+$color-red-1000: #330000;
+$color-red-1100: #0f0000;
+
+// blue
+$color-blue-100: #e8f3ff;
+$color-blue-200: #b5d8ff;
+$color-blue-300: #82beff;
+$color-blue-400: #4fa3ff;
+$color-blue-500: #197be5;
+$color-blue-600: #0061cc;
+$color-blue-700: #2f6299;
+$color-blue-800: #204166;
+$color-blue-900: #102133;
+$color-blue-1000: #08101a;
+$color-blue-1100: #04080d;
+
+// yellow
+$color-yellow-100: #fffcf2;
+$color-yellow-200: #fff4cc;
+$color-yellow-300: #ffe999;
+$color-yellow-400: #ffdd66;
+$color-yellow-500: #ffd233;
+$color-yellow-600: #ffc700;
+$color-yellow-700: #cc9f00;
+$color-yellow-800: #997700;
+$color-yellow-900: #665000;
+$color-yellow-1000: #332800;
+$color-yellow-1100: #1a1400;
+
+// usage example
+// use varible to color fonts, container backgrounds...
+// element to be styled
+/* 
+body {
+   //call the varible with the color you want
+   // backgroud color
+   background-color: $color-blue-100;
+   // as font color
+   color: $color-primary-green-600;
+ }
+ */

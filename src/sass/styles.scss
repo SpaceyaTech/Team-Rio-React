@@ -1,0 +1,22 @@
+// color variables
+@import './color-variables';
+// font variables
+@import './fonts';
+// spacing variables
+@import './spacing';
+
+// import your file module after this comment
+// @import './file-name';
+
+// global stylings
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
