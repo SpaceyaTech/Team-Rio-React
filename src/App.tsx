@@ -1,11 +1,11 @@
+import BreakingNews from './components/Breaking/BreakingNews';
 import Hero from './components/Hero/Hero';
-import Home from './pages/SamplePage';
 
 function App() {
   return (
     <div>
       <Hero />
-      <Home />
+      <BreakingNews />
     </div>
   );
 }
