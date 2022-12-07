@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      style={{ backgroundImage: `url(${sampleImage})` }}
+      style={{ backgroundImage: `url(${sampleImage})`, zIndex: -1 }}
       className="relative bg-cover bg-center bg-no-repeat"
     >
       <div className="absolute inset-0 bg-black opacity-30"></div>
@@ -22,7 +22,7 @@ export default function Hero() {
               href="#"
               className="block w-full rounded px-12 py-3 text-sm font-medium border border-white text-white shadow hover:bg-green-300 sm:w-auto"
             >
-              Read more
+              Read Story
             </a>
           </div>
         </div>
