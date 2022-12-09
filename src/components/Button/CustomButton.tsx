@@ -1,8 +1,4 @@
-export interface CustomButtonProps {
-  text: string;
-  color: string;
-  textColor: string;
-}
+import type { CustomButtonProps } from '../../interfaces';
 
 export default function CustomButton(props: CustomButtonProps) {
   return (

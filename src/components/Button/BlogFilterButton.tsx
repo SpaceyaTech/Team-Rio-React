@@ -1,8 +1,4 @@
-export interface BlogFilterButtonProps {
-  category: string;
-  isActive: boolean;
-  handleClick: (category: string) => void;
-}
+import type { BlogFilterButtonProps } from '../../interfaces';
 
 export default function BlogFilterButton(props: BlogFilterButtonProps) {
   const style = props.isActive
