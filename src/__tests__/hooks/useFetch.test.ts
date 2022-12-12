@@ -1,6 +1,6 @@
 import { renderHook, waitFor } from '@testing-library/react';
-// import axios from 'axios';
-// import MockAdapter from 'axios-mock-adapter';
+import axios from 'axios';
+import MockAdapter from 'axios-mock-adapter';
 import useFetch from '../../hooks/useFetch';
 
 interface IMockClass {
@@ -12,8 +12,8 @@ test('useFetch performs a GET request', async () => {
     mockString: 'mock string',
   };
   const mockUrl = '/api';
-  //   const mockAxios = new MockAdapter(axios);
-  //   mockAxios.onGet(mockUrl).reply(200, mockData);
+  const mockAxios = new MockAdapter(axios);
+  mockAxios.onGet(mockUrl).reply(200, mockData);
 
   const { result } = renderHook(() => useFetch<IMockClass>(mockUrl));
 
