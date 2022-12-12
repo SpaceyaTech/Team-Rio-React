@@ -3,7 +3,7 @@ import BlogFilterButton from '../../../components/Button/BlogFilterButton';
 
 test('renders correct color scheme when button is active', async () => {
   const category = 'Design';
-  let isActive = true;
+  const isActive = true;
   const mockHandleClick = jest.fn();
 
   render(
@@ -21,7 +21,7 @@ test('renders correct color scheme when button is active', async () => {
 
 test('renders correct color scheme when button is not active', () => {
   const category = 'Frontend';
-  let isActive = false;
+  const isActive = false;
   const mockHandleClick = jest.fn();
 
   render(
@@ -39,7 +39,7 @@ test('renders correct color scheme when button is not active', () => {
 
 test('expect handleClick to be called', () => {
   const category = 'Frontend';
-  let isActive = false;
+  const isActive = false;
   const mockHandleClick = jest.fn();
 
   render(
