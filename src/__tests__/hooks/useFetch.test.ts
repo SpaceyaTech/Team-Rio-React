@@ -28,3 +28,20 @@ test('useFetch performs a GET request', async () => {
     expect(result.current.data?.mockString).toBe(mockData.mockString);
   });
 });
+
+test('useFetch handles errors', async () => {
+  const mockUrl = '/api';
+  const mockAxios = new MockAdapter(axios);
+  mockAxios.onGet(mockUrl).reply(500);
+
+  const { result } = renderHook(() => useFetch<IMockClass>(mockUrl));
+
+  expect(result.current.loading).toBe(true);
+  expect(result.current.data).toBe(null);
+
+  await waitFor(() => {
+    expect(result.current.loading).toBe(false);
+    expect(result.current.data).toBe(null);
+    expect(result.current.error).not.toBe(null);
+  });
+});
